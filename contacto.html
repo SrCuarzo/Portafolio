@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es"></html>
+<head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    </head>
+   <!-- Sección del Menú  -->
+<body>
+    <header>
+    <div class="caja">
+            <h1><img src="assets\pixel.jpeg" class="pixel"></h1>
+            <nav>
+                <ul class="menu__list">
+                    <li class="menu__list__item"><a href="index.html">Home</a></li>
+                    <li class="menu__list__item"><a href="sobre-mi.html">Sobre mi</a></li>
+                    <li class="menu__list__item"><a href="proyectos.html">Proyectos</a></li>
+                </ul>    
+            </nav>
+    </div>   
+    </header>
+        <main>
+            <h2 class="contacto__title" >Contactos</h2>
+            <form>
+                <label for="nombreapellido">Nombre y Apellido</label>
+                <input type="text" id="nombreapellido" class="input-padron" required>
+
+                <label for="correoelectronico">Correo Electrónico</label>
+                <input type="email" id="correoelectronico" class="input-padron" required placeholder="email@dominio.com">
+
+                <label for="telefono">Teléfono</label>
+                <input type="tel" id="telefono" class="input-padron" required placeholder="(XX) XXXX XXXX">
+
+                <label for="mensaje">Mensaje</label>
+                <textarea cols="70" rows="10" id="mensaje" class="input-padron" required></textarea>
+                
+                <fieldset>
+                    <legend>¿Cómo le gustaría que lo contactemos?</legend>
+
+                    <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">Email</label>
+                    
+                    <label for="radio-telefono"><input type="radio" name="contacto" value="telefono" id="radio-telefono">Teléfono</label>
+                    
+                    <label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp" checked>WhatsApp</label>
+                    
+                </fieldset>
+               
+                <fieldset>
+                    <legend>¿En cuál horario prefiere ser atendido?</legend>
+                    <select>
+                        <option>Mañana</option>
+                        <option>Tarde</option>
+                        <option>Noche</option>
+                    </select>
+                </fieldset>
+                
+                <label class="checkbox"><input type="checkbox" checked>¿Le gustaría recibir novedades de mis nuevos proyectos?</label>                
+                
+                <input type="submit" value="Enviar formulario" class="enviar">
+
+            </form>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Día</th>
+                        <th>Horario</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Lunes</td>
+                        <td>08h ~ 20h</td>
+                    </tr>
+                    <tr>
+                        <td>Miércoles</td>
+                        <td>08h ~ 20h</td>
+                    </tr>
+                    <tr>
+                        <td>Viernes</td>
+                        <td>08h ~ 20h</td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+         <!-- Sección de Footer -->
+         <section class="footer">
+            <a href="https://github.com/SrCuarzo"><img class="logo" src="assets\github.png"></a>
+            <a href="https://www.linkedin.com/in/luis-fernando-paredes-carbajal-46a340187/"><img class="logo" src="assets\linkedin.png"></a>
+            <div class="footer__rodapie">
+                <p>Desarrollado por DevCuarzo</p>
+                <p>&copy Copyright 2024</p>     
+            </div>
+        </section>
+</html>

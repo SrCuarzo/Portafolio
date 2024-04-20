@@ -1,0 +1,444 @@
+header {
+  background-color: rgba(121, 105, 129, 0.432);
+  padding: 20x 0;
+}
+
+.caja {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  position: relative;
+  margin: 0 auto;
+}
+
+.pixel {
+  box-shadow: 10px 10px 30px 15px #000000;
+  width: 100vw;
+}
+nav {
+  position: absolute;
+  top: 5rem;
+}
+
+nav ul {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem;
+}
+
+nav a {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  text-transform: uppercase;
+  color: rgb(173, 155, 170);
+  font-weight: 700;
+  font-size: 65px;
+  text-decoration: none;
+}
+
+.nickname {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  color: rgb(173, 155, 170);
+  font-weight: bold;
+  font-size: 65px;
+  text-decoration: none;
+  padding: 60px;
+}
+
+.nickname:hover {
+  color: #b319c7;
+  text-decoration: underline;
+}
+
+nav a:hover {
+  color: #b319c7;
+  text-decoration: underline;
+}
+
+.footer {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  text-align: center;
+  background: url(assets/bg.jpg);
+  padding: 50px;
+}
+.footer__rodapie {
+  color: #ffffff;
+  font-size: 40px;
+  padding: 50px;
+}
+
+.logo {
+  width: 120px;
+  height: auto;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+form {
+  margin: 40px 10px;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+form label,
+form legend {
+  display: block;
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+
+.input-padron {
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px 25px;
+  width: 50%;
+}
+
+.checkbox {
+  margin: 20px 0;
+}
+
+.enviar {
+  width: 40%;
+  padding: 15px 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background: orange;
+  border: none;
+  border-radius: 5px;
+  transition: 1s all;
+  cursor: pointer;
+}
+
+.enviar:hover {
+  background: darkorange;
+  transform: scale(1.2);
+}
+
+table {
+  margin: 40px 40px;
+}
+
+thead {
+  background: #555555;
+  color: white;
+  font-weight: bold;
+}
+
+td,
+th {
+  border: 1px solid #000000;
+  padding: 8px 15px;
+}
+
+.title {
+  padding: 3em 0;
+  background: #fefefe;
+  width: 100vw;
+  margin: 0 auto;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 30px;
+}
+
+.title__container {
+  width: 100vw;
+}
+
+.title__div {
+  width: 100vw;
+}
+
+.title__bio {
+  text-align: center;
+  font-size: 2em;
+  margin: 0 0 1em;
+  clear: left;
+}
+
+.title__profile {
+  width: 400px;
+  float: left;
+  margin: 0 20px 20px 0;
+  box-shadow: 10px 10px 30px 15px #000000;
+}
+
+.title__subsection {
+  width: 100vw;
+  margin: 10px;
+}
+
+.title__network__item {
+  display: inline-block;
+  margin: auto;
+  padding: 15px;
+  box-sizing: border-box;
+  border: 2px solid #000000;
+  border-radius: 10px;
+}
+
+.skills {
+  padding: 3em 0;
+  background: #fefefe;
+  width: auto;
+  margin: 0 auto;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 30px;
+}
+
+.skills__title {
+  text-align: center;
+  font-size: 2em;
+  margin: 0 0 1em;
+  clear: left;
+}
+
+.skills__line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.skills__box {
+  display: inline-block;
+  text-align: center;
+  width: 60%;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  & img {
+    width: 10rem;
+    height: 10rem;
+  }
+}
+
+/* .skill__box img {
+    width: 10rem;
+    height: 10rem;
+} */
+
+.skills__img {
+  display: block;
+}
+
+.skills__name {
+  font-size: 30px;
+  margin: 0;
+}
+
+.hobbies {
+  padding: 3em 0;
+  background: #fefefe;
+  width: auto;
+  margin: 0 auto;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 30px;
+}
+
+.hobbies__title {
+  text-align: center;
+  font-size: 2em;
+  margin: 0 0 1em;
+  clear: left;
+}
+
+.hobbies__line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hobbies__box {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  width: 100%;
+  vertical-align: top;
+  margin: 0 1.5%;
+  /* padding: 30px 20px; */
+  box-sizing: border-box;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  & img {
+    width: 10rem;
+    height: 10rem;
+  }
+}
+
+.hobbies__img {
+  display: block;
+}
+
+.hobbies__name {
+  font-size: 30px;
+  margin: 0;
+}
+
+.academic {
+  padding: 3em 0;
+  background: #fefefe;
+  width: auto;
+  margin: 0 auto;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 30px;
+}
+
+.academic__title {
+  text-align: center;
+  font-size: 2em;
+  margin: 0 0 1em;
+  clear: left;
+}
+
+.academic__courses {
+  width: 100vw;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.academic__courses__box {
+  display: inline-block;
+  text-align: center;
+  width: 60%;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  border: 2px solid #000000;
+  border-radius: 10px;
+}
+
+.experience {
+  /* padding: 3em 0; */
+  background: #fefefe;
+  width: auto;
+  margin: 0 auto;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 30px;
+}
+
+.experience__section__title {
+  text-align: center;
+  font-size: 2em;
+  margin: 1em 0;
+  clear: left;
+  
+}
+
+.experiencie__box {
+  display: inline-block;
+  text-align: center;
+  width: 60%;
+  vertical-align: top;
+  margin: 2rem;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  border: 2px solid #000000;
+  border-radius: 10px;
+}
+
+.experience__img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.contacto__title{
+  text-align: center;
+  font-size: 2em;
+  margin: 1em 0;
+  clear: left;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 30px;
+  
+}
+/* Vamos a desafiarnos trabajando con responsividad?
+Utiliza las referencias de los breakpoints @media abajo */
+
+@media (max-width: 900px) {
+  nav ul {
+      flex-direction: row;
+      align-items: center;
+      position: relative;
+      bottom: 3rem;
+      
+  }
+  nav a {
+      font-size: 6vw;
+  }
+  .nickname {
+      font-size: 6vw;
+  }
+  .footer__rodapie{
+    font-size: 5vw;
+  }
+  .logo{
+    width: 12vw;
+    
+  }
+
+}
+
+
+/*Tablet*/
+@media (min-width: 768px) {
+  /* Menú */
+
+  /*title*/
+
+  /*Skills*/
+
+  /*Hobbies*/
+
+  /*Formación Académica*/
+
+  /*Experiencia Profesional*/
+
+  /*Mobile*/
+}
+@media (min-width: 414px) {
+  /*Menu*/
+
+  /*Titulo*/
+
+  /*Sección sobre mi*/
+
+  /*Skills*/
+
+  /*Hobbies*/
+
+  /*Formación Académica*/
+
+  /*Experiencia Profesional*/
+
+  /*Contacto*/
+
+  /*Footer*/
+}
